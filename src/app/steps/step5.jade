@@ -1,0 +1,32 @@
+.row.row-cleafix
+    h4 Notes & Narrative
+
+    .col-md-6.column
+        .panel.panel-primary(style="height:500px;overflow:scroll;")
+            .panel-heading
+                .panel-title Notes
+            .panel-body
+                span.label.label-primary Respondent COD
+                p {{participant.respondentCOD}}
+
+                span.label.label-primary Positive Symptoms
+                div(ng-repeat="symptom in positiveSymptoms")
+                    strong {{symptom.label | lowercase}}
+                    p {{symptom.comments}}
+
+                span.label.label-primary Negative Symptoms
+                br
+                p
+                    span(ng-repeat="symptom in negativeSymptoms") {{symptom.label | lowercase}},
+
+
+                span.label.label-primary Medical Information
+                p {{participant.medicalInformation}}
+
+
+    .col-md-6.column
+        .panel.panel-primary
+            .panel-heading
+                .panel-title Narrative
+            .panel-body
+                textarea(placeholder="Narrative",class="form-control",rows="20",style="width:100%")

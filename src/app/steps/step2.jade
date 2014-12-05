@@ -1,0 +1,14 @@
+.row.clearfix
+    h4 Cardinal Symptoms
+
+    .container
+        .col-md-4.column(ng-repeat="symptom in symptomList")
+            .col-mod2.column
+            div(ng-click="symptom.active=!symptom.active",class="active-{{symptom.active}}",style="border:3px solid #eee;")
+                img(width="60" height="60" src="{{symptom.src}}")
+                span.label.label-primary{{symptom.label}}
+
+
+
+    div(align="center",style="margin-top:10px")
+        a.btn.btn-primary(href="#/steps/step3",ng-click="filterSymptoms()") Next Step &raquo;

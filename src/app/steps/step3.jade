@@ -1,0 +1,15 @@
+.row.clearfix
+    h4 Positive Symptoms
+
+    div.container(ng-repeat="symptom in positiveSymptoms")
+        div.col-md-6.column
+            img(src="{{symptom.src}}",width=70,height=70)
+            span.label.label-primary {{$index+1}} {{symptom.label}}
+            ul
+                li(ng-repeat="guideline in symptom.guidelines") {{guideline}}
+        div.col-md-6.column
+            textarea.form-control(rows="10",placeholder="{{symptom.label}}",ng-model="symptom.comments")
+
+
+    div(align="center")
+        a.btn.btn-primary(href="#/steps/step4") Next Step &raquo;

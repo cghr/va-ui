@@ -1,0 +1,96 @@
+[
+  {
+    "name": "fever",
+    "label": "FEVER",
+    "src": "http://s26.postimg.org/jxv8u4zvt/CS_fever01.jpg",
+    "guidelines": [
+      "High or low grade",
+      "Longer than 30 days",
+      "Continuous, intermittent (on and off), or occasional",
+      "Did the fever rise every day",
+      "Repeated attacks with chills, shaking, sweating, or muscle pain",
+      "Associated with: headache; burning sensation while passing urine; neck stiffness; irritated and does not like light or sound; confusion; drowsiness; coma; rash/blisters"
+    ]
+  },
+  {
+    "name": "cough",
+    "label": "COUGH",
+    "src": "http://s26.postimg.org/mqoge6089/CS_children03.jpg",
+    "guidelines": [
+      "Dry, wet (with sputum), bloody (rusty), foul smelling",
+      "If more than 30 days (see weight loss)",
+      "Worse during day or night, only at night",
+      "Cough with wheezing or in-drawing (use local language)",
+      "Had to sit in bed for relief",
+      "Pain at the sides of the chest wall",
+      "Pain worse with cough and(or)or deep breath",
+      "Associated with fever, weight loss, night sweats, evening rise of temperature, vomiting, hoarseness of voice"
+    ]
+  },
+  {
+    "name": "breathlessness",
+    "label": "BREATHLESSNESS",
+    "src": "http://s26.postimg.org/ubrh9mv8p/CSL03.jpg",
+    "guidelines": [
+      "Onset and progression (did the person feel short of breath initially on exertion, but progressively worsens to breathlessness at rest)",
+      "Occurs soon after lying flat and relieved by sitting up",
+      "What brings it on? Allergy or chest infection",
+      "Episodes or attacks of wheezes and breathlessness",
+      "Associated with fever, weight loss, night sweats, evening rise of temperature, vomiting and hoarseness of voice, swelling of hands and legs, body or abdomen"
+    ]
+  },
+  {
+    "name": "diarrhoea",
+    "label": "DIARRHOEA",
+    "src": "http://s26.postimg.org/lw1ws4sdl/CSL04.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "chest_pain",
+    "label": "CHEST PAIN",
+    "src": "http://s26.postimg.org/qkhwnbhk9/CSL06.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "weight_loss",
+    "label": "WEIGHT LOSS",
+    "src": "http://s26.postimg.org/q6gknpxgp/CSL05.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "stroke",
+    "label": "PARALYSIS/STROKE",
+    "src": "http://s26.postimg.org/h1ct7ljft/CSL07.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "fits",
+    "label": "SEIZURES/FITS",
+    "src": "http://s26.postimg.org/tl3chli95/CSL12.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "abdominal_prbs",
+    "label": "ABDOMINAL PROBLEMS",
+    "src": "http://s26.postimg.org/6tu9v6x7t/CSL10.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "urinary_prbs",
+    "label": "URINARY PROBLEMS",
+    "src": "http://s26.postimg.org/q07gyddpl/CSL09.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "swelling",
+    "label": "OEDEMA (SWELLING)",
+    "src": "http://s26.postimg.org/h2mr10l9l/CSL08.jpg",
+    "guidelines": []
+  },
+  {
+    "name": "jaundice",
+    "label": "JAUNDICE ",
+    "src": "http://s26.postimg.org/5vdwswjvt/CSL11.jpg",
+    "guidelines": []
+  }
+]
